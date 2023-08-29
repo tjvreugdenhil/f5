@@ -9,19 +9,19 @@ Ctrl + Shift + X -> search for dotenv.dotenv-vscode ->  install
 
 4) Create API Token from F5 XC tenant:  Administration > Personal Management > Credentials > Add Credentials
 
-5) Rename ".env.sample" to ".env" - and paste your API token into the .env file 
-
-6) Update all .rest files using API token variable from .env file :
+5) Rename ".env.sample" to ".env" 
+   a. paste API token into the .env file 
+   b. paste f5 XC tenant name into the .env file 
 
 ########### CREATE F5-XC DNS ZONE & RECORDS ##############
 
-7) Verify F5 DNS Zone does not exist:  {Send Request}:  "GET f5xc-demo.com.rest"
+6) Verify F5 DNS Zone does not exist:  {Send Request}:  "GET f5xc-demo.com.rest"
 
-8) Create F5 DNS Zone: {Send Request}: "POST f5xc-demo.com zone.rest"
+7) Create F5 DNS Zone: {Send Request}: "POST f5xc-demo.com zone.rest"
 
-9) Verify F5 DNS Zone: {Send Request}:  "GET f5xc-demo.com.rest"
+8) Verify F5 DNS Zone: {Send Request}:  "GET f5xc-demo.com.rest"
 
-10) Replace F5 DNS Zone with new records: {Send Request}:  "PUT f5xc-demo.com zone.rest"
+9) Replace F5 DNS Zone with new records: {Send Request}:  "PUT f5xc-demo.com zone.rest"
 
 
 ############ ADDITIONAL INFORMATION  #############
