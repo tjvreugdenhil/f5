@@ -1,4 +1,4 @@
-PUT https://shi.console.ves.volterra.io/api/config/dns/namespaces/system/dns_zones/f5xc-demo.com
+PUT https://{{$dotenv TENANT}}.console.ves.volterra.io/api/config/dns/namespaces/system/dns_zones/f5xc-demo.com
 Authorization: APIToken {{$dotenv F5_XC_DNS_PRIV_APITOKEN}}
 Content-Type: application/json
 

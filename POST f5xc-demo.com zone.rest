@@ -1,4 +1,4 @@
-POST https://shi.console.ves.volterra.io/api/config/dns/namespaces/system/dns_zones
+POST https://{{$dotenv TENANT}}.console.ves.volterra.io/api/config/dns/namespaces/system/dns_zones
 Authorization: APIToken {{$dotenv F5_XC_DNS_PRIV_APITOKEN}}
 Content-Type: application/json
 
