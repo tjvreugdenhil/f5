@@ -1,0 +1,1 @@
+curl -k -v -H "Authorization: APIToken {{$dotenv F5_XC_DNS_PRIV_APITOKEN}}" https://shi.console.ves.volterra.io/api/config/dns/namespaces/system/dns_zones/f5xc-demo.com | jq . 

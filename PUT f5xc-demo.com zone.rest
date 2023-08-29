@@ -1,0 +1,31 @@
+PUT https://shi.console.ves.volterra.io/api/config/dns/namespaces/system/dns_zones/f5xc-demo.com
+Authorization: APIToken {{$dotenv F5_XC_DNS_PRIV_APITOKEN}}
+Content-Type: application/json
+
+{
+    "metadata": {
+        "name": "f5xc-demo.com",
+        "namespace": "system",
+        "labels": {},
+        "annotations": {},
+        "description": "test",
+        "disable": false        
+    },
+"spec": {
+    "primary": {
+        "allow_http_lb_managed_records": true,
+        "default_rr_set_group": [
+        { "ttl": 3600, "a_record": {"name": "test", "values": [ "11.11.11.10", "11.11.11.11" ]}},
+        { "ttl": 3600, "cname_record": {"name": "test1", "value": "test.f5xc-demo.com" }},
+        { "ttl": 3600, "mx_record": {"name": "", "values": [ { "domain": "mail1.f5xc-demo.com", "priority": 10 }, { "domain": "mail2.f5xc-demo.com", "priority": 15 } ] } },
+        { "ttl": 3600, "txt_record": {"name": "test2", "values": [ "txt2", "txt3" ]}},
+        { "ttl": 3600, "srv_record": {"name": "_example._tls", "values": [ { "priority": 10, "weight": 10, "port": 8443, "target": "example.f5xc-demo.com" } ] } },
+        { "ttl": 3600, "a_record": {"name": "test5", "values": [ "11.11.11.20", "11.11.11.21" ]}},
+        { "ttl": 3600, "a_record": {"name": "test6", "values": [ "11.11.11.22", "11.11.11.23" ]}},
+        { "ttl": 3600, "a_record": {"name": "test7", "values": [ "11.11.11.24", "11.11.11.25" ]}},
+        { "ttl": 3600, "a_record": {"name": "test8", "values": [ "11.11.11.26", "11.11.11.27" ]}},
+        { "ttl": 3600, "a_record": {"name": "test9", "values": [ "11.11.11.28", "11.11.11.30" ]}}
+        ]
+    }
+  }
+}

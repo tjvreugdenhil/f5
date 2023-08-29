@@ -1,0 +1,30 @@
+POST https://shi.console.ves.volterra.io/api/config/dns/namespaces/system/dns_zones
+Authorization: APIToken {{$dotenv F5_XC_DNS_PRIV_APITOKEN}}
+Content-Type: application/json
+
+{
+    "metadata": {
+        "name": "f5xc-demo.com",
+        "namespace": "system",
+        "labels": {},
+        "annotations": {},
+        "description": "test",
+        "disable": false        
+    },
+"spec": {
+    "primary": {
+        "allow_http_lb_managed_records": true,
+        "default_rr_set_group": [
+        { "ttl": 3600, "a_record": {"name": "test", "values": [ "11.11.11.10", "11.11.11.11" ]}},
+        { "ttl": 3600, "a_record": {"name": "test1", "values": [ "11.11.11.12", "11.11.11.13" ]}},
+        { "ttl": 3600, "a_record": {"name": "test2", "values": [ "11.11.11.14", "11.11.11.15" ]}},
+        { "ttl": 3600, "a_record": {"name": "test3", "values": [ "11.11.11.16", "11.11.11.17" ]}},
+        { "ttl": 3600, "a_record": {"name": "test4", "values": [ "11.11.11.18", "11.11.11.19" ]}},
+        { "ttl": 3600, "a_record": {"name": "test5", "values": [ "11.11.11.20", "11.11.11.21" ]}},
+        { "ttl": 3600, "a_record": {"name": "test6", "values": [ "11.11.11.22", "11.11.11.23" ]}},
+        { "ttl": 3600, "a_record": {"name": "test7", "values": [ "11.11.11.24", "11.11.11.25" ]}},
+        { "ttl": 3600, "a_record": {"name": "test8", "values": [ "11.11.11.26", "11.11.11.127" ]}}
+        ]
+    }
+  }
+}
