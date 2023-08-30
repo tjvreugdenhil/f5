@@ -3,7 +3,7 @@
 
 <h3> 👨🏻‍💻 PREPARATION </h3>
 
-1) Download Visual Studio Code: https://code.visualstudio.com/
+1) Download: [Visual Studio Code](https://code.visualstudio.com/)
 
 2) Install “REST Client” Extension from the Visual Studio Code Marketplace: Files ending with .http or .rest will automatically be syntax highlighted
 Ctrl + Shift + X -> search for humao.rest-client -> install
