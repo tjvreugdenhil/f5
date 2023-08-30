@@ -8,32 +8,42 @@
 
 1) Download: [Visual Studio Code](https://code.visualstudio.com/)
 
-2) Install “REST Client” Extension from the Visual Studio Code Marketplace: Files ending with .http or .rest will automatically be syntax highlighted
-Ctrl + Shift + X -> search for humao.rest-client -> install
+2) Install “REST Client” Extension from the Visual Studio Code Marketplace:
 
-3) Install “Dotenv Official” Extension from the Visual Studio Code Marketplace: This is used to quickly reference API tokens without exposing API tokens in code. 
-Ctrl + Shift + X -> search for dotenv.dotenv-vscode ->  install 
+`Ctrl + Shift + X -> search for humao.rest-client -> install
+`
+> Files ending with .http or .rest will automatically be syntax-highlighted
 
-4) Create API Token from F5 XC tenant:  Administration > Personal Management > Credentials > Add Credentials
+
+3) Install “Dotenv Official” Extension from the Visual Studio Code Marketplace:
+   
+`Ctrl + Shift + X -> search for dotenv.dotenv-vscode ->  install 
+`
+
+> This is used to quickly reference API tokens without exposing API tokens in code. 
+
+
+4) Create API Token from F5 XC tenant:
+> Administration > Personal Management > Credentials > Add Credentials
 
 5) Rename ".env.sample" to ".env"
     
-   paste API token into the .env file
+   > paste API token into the .env file
 
-   paste f5 XC tenant name into the .env file 
+   > paste f5 XC tenant name into the .env file 
 
 <h3>🛠 CREATE F5-XC DNS ZONE AND RECORDS</h3>
 
-6) Verify F5 DNS Zone does not exist:
+1) Verify F5 DNS Zone does not exist:
 `{Send Request}:  "GET f5xc-demo.com.rest"
 `
-8) Create F5 DNS Zone:
+2) Create F5 DNS Zone:
 `{Send Request}: "POST f5xc-demo.com zone.rest"
 `
-10) Verify F5 DNS Zone:
+3) Verify F5 DNS Zone:
 `{Send Request}:  "GET f5xc-demo.com.rest"
 `
-12) Replace F5 DNS Zone with new records:
+4) Replace F5 DNS Zone with new records:
 `{Send Request}:  "PUT f5xc-demo.com zone.rest"
 `
 
