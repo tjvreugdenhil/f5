@@ -1,5 +1,6 @@
 <h1> Hey there! My name is TJ 👋 </h1>
 <h2> A extremely helpful F5 Solutions Architect for SHI </h2>
+<img align="top" alt="GIF" src="https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/1f759a05-39e5-4829-a74c-210f36154c03" width="300"/>
 
 <h3> 👨🏻‍💻 PREPARATION </h3>
 
