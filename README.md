@@ -8,14 +8,14 @@
 
 1) Download: [Visual Studio Code](https://code.visualstudio.com/)
 
-2) Install “REST Client” Extension from the Visual Studio Code Marketplace:
+2) Install [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) from the Visual Studio Code Marketplace:
 
 `Ctrl + Shift + X -> search for humao.rest-client -> install
 `
 > Files ending with .http or .rest will automatically be syntax-highlighted
 
 
-3) Install “Dotenv Official” Extension from the Visual Studio Code Marketplace:
+3) Install [Dotenv Official Extension](https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode) from the Visual Studio Code Marketplace:
    
 `Ctrl + Shift + X -> search for dotenv.dotenv-vscode ->  install 
 `
