@@ -41,7 +41,9 @@
 
    ![git bash](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/9064d58e-9ee5-4c66-a450-46cefa305d32)
 
-   
+`   gh repo clone tjvreugdenhil/f5xc-dns-zone-vscode 
+`
+
 7) Rename ".env.sample" from github repo to ".env"
     
    > paste API token into the .env file
