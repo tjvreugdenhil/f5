@@ -75,6 +75,11 @@
 
 ![PUT](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/81ebe06b-f24d-4bff-bd74-356ed335fdad)
 
+![200 OK after PUT](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/ab5bd601-a451-4a6e-9bda-bcf615a60c57)
+
+![f5 dns zone verification](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/569d15d3-a253-4ad6-a897-88b9c986e4cf)
+
+
 6) Delete F5 DNS Zone
 `{Send Request}:  "DELETE f5xc-demo.com zone.rest"
 `
