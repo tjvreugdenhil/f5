@@ -55,15 +55,31 @@
 1) Verify F5 DNS Zone does not exist:
 `{Send Request}:  "GET f5xc-demo.com.rest"
 `
+![GET](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/56d54c92-1920-4eec-94d0-dc9299919618)
+
 2) Create F5 DNS Zone:
 `{Send Request}: "POST f5xc-demo.com zone.rest"
 `
+
+![POST](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/e355366d-9bf9-4e74-a523-41273e9596f3)
+
 3) Verify F5 DNS Zone:
 `{Send Request}:  "GET f5xc-demo.com.rest"
 `
+
+![GET](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/56d54c92-1920-4eec-94d0-dc9299919618)
+
 4) Replace F5 DNS Zone with new records:
 `{Send Request}:  "PUT f5xc-demo.com zone.rest"
 `
+
+![PUT](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/81ebe06b-f24d-4bff-bd74-356ed335fdad)
+
+6) Delete F5 DNS Zone
+`{Send Request}:  "DELETE f5xc-demo.com zone.rest"
+`
+
+![DELETE](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/22f2adfa-51f3-482e-acbf-ea7972fd5147)
 
 **ADDITIONAL INFORMATION:**
 
