@@ -1,5 +1,5 @@
 <h3> Hey there! My name is TJ 👋 </h3>
-<h4> A extremely helpful F5 Solutions Architect for SHI </h4>
+<h4> A extremely helpful F5 Solutions Architect </h4>
 
 > In this repo, we will demonstrate API Management with F5 Distributed Cloud (XC) - DNS using vscode
 <img align="top" alt="GIF" src="https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/1f759a05-39e5-4829-a74c-210f36154c03" width="200"/>
@@ -8,10 +8,15 @@
 
 1) Download: [Visual Studio Code](https://code.visualstudio.com/)
 
+   ![visual-studio-code](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/7bfce184-3a3d-49b9-a93a-f1d5c78501d0)
+
+
 2) Install [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) from the Visual Studio Code Marketplace:
 
 `Ctrl + Shift + X -> search for humao.rest-client -> install
 `
+      ![restclient](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/b3774426-abcb-4fdc-afec-a0ef5032a6e0)
+
 > Files ending with .http or .rest will automatically be syntax-highlighted
 
 
@@ -19,14 +24,20 @@
    
 `Ctrl + Shift + X -> search for dotenv.dotenv-vscode ->  install 
 `
+      ![dotenv](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/de319c92-c6b2-484f-a3f9-b53a73fd3ca6)
 
 > This is used to quickly reference API tokens without exposing API tokens in code. 
 
 
 4) Create API Token from F5 XC tenant:
+   
+   ![f5xc home](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/67f27e89-b228-42f9-87d0-f9abd80784b6)
+
 > Administration > Personal Management > Credentials > Add Credentials
 
-5) Rename ".env.sample" to ".env"
+   ![f5xc-api-token](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/cad1fe80-d5ac-4ba8-b404-97eef6ffdb38)
+
+5) Rename ".env.sample" from github repo to ".env"
     
    > paste API token into the .env file
 
