@@ -63,7 +63,7 @@
 
 ![POST](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/e355366d-9bf9-4e74-a523-41273e9596f3)
 
-3) Verify F5 DNS Zone:
+3) Verify F5 DNS Zone was created:
 `{Send Request}:  "GET f5xc-demo.com.rest"
 `
 
