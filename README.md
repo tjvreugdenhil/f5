@@ -6,6 +6,8 @@
 
 <h3> 👨🏻‍💻 PREPARATION </h3>
 
+> First, we will prepare Visual Studio Code with the correct extensions, create and copy our F5 XC API token, clone this GitHub repo, and update files in this repo for your environment. 
+
 1) Download: [Visual Studio Code](https://code.visualstudio.com/)
 
    ![visual-studio-code](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/7bfce184-3a3d-49b9-a93a-f1d5c78501d0)
@@ -51,6 +53,8 @@
    > paste f5 XC tenant name into the .env file 
 
 <h3>🛠 CREATE F5-XC DNS ZONE AND RECORDS</h3>
+
+> These steps walk through creating a test F5 XC DNS zone, verifying commits, replacing zone records, and deleting the test zone.  
 
 1) Verify F5 DNS Zone does not exist:
 `{Send Request}:  "GET f5xc-demo.com.rest"
