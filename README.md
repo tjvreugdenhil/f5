@@ -1,12 +1,12 @@
 <h3> Hey there! My name is TJ 👋 </h3>
 <h4> A extremely helpful F5 Solutions Architect </h4>
 
-> In this repo, we will demonstrate API Management with F5 Distributed Cloud (XC) - DNS using vscode
+> In this repo, we will demonstrate API Management with F5 Distributed Cloud (XC) - DNS using Visual Studio Code
 <img align="top" alt="GIF" src="https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/1f759a05-39e5-4829-a74c-210f36154c03" width="200"/>
 
 <h3> 👨🏻‍💻 PREPARATION </h3>
 
-> First, we will prepare Visual Studio Code with the correct extensions, create and copy our F5 XC API token, clone this GitHub repo, and update files in this repo for your environment. 
+> First, we will prepare Visual Studio Code by installing two extensions, creating and copying our F5 XC API token, cloning this GitHub repo for local use, and updating the repo files for your environment. 
 
 1) Download: [Visual Studio Code](https://code.visualstudio.com/)
 
