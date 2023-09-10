@@ -62,6 +62,7 @@
 1) Verify F5 DNS Zone does not exist:
 `{Send Request}:  "GET f5xc-demo.com.rest"
 `
+
 ![GET](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/56d54c92-1920-4eec-94d0-dc9299919618)
 
 2) Create F5 DNS Zone:
