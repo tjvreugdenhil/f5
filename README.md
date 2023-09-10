@@ -16,8 +16,8 @@
 2) Install [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) from the Visual Studio Code Marketplace:
 
 `Ctrl + Shift + X -> search for humao.rest-client -> install
-`
-      ![restclient](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/b3774426-abcb-4fdc-afec-a0ef5032a6e0)
+`  
+   ![REST](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/2b840b84-fa78-4fa2-8cbf-08a7c169f545)
 
 > Files ending with .http or .rest will automatically be syntax-highlighted
 
@@ -26,7 +26,10 @@
    
 `Ctrl + Shift + X -> search for dotenv.dotenv-vscode ->  install 
 `
-      ![dotenv](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/de319c92-c6b2-484f-a3f9-b53a73fd3ca6)
+
+
+![dotenv](https://github.com/tjvreugdenhil/f5xc-dns-zone-vscode/assets/20447165/bccbff56-0f1b-4b59-83cc-e7b9af65e3e9)
+
 
 > This is used to quickly reference API tokens without exposing API tokens in code. 
 
